@@ -1,0 +1,47 @@
+/* Estilos para el cuerpo de la página */
+body {
+    background-image: url('Fondo-de-pantalla-Soy-Uleam1-1024x577.png'); /* Ruta de la imagen de fondo */
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    font-family: Arial, sans-serif;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    color: #fff; /* Texto en blanco para contraste */
+}
+
+/* Estilos para el contenedor principal */
+.container {
+    width: 500px;
+    padding: 20px;
+    background-color: rgba(255, 255, 255, 0.8);
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Estilos para grupos de formulario (similares a registro o login) */
+.form-group {
+    text-align: left;
+    margin: 15px 0;
+    width: 90%;
+}
+
+.form-group label {
+    display: block;
+    font-weight: bold;
+    color: #333;
+}
+
+.form-group input {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+/* Agrega estilos adicionales según tus necesidades */
+

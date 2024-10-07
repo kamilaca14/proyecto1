@@ -1,0 +1,190 @@
+/* Estilos generales */
+body {
+    background-color: #F2F2F2;
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    color: #333;
+}
+
+.header {
+    background-color: #cf1e1e;
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.header__content {
+    max-width: 100%;
+    max-height: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.header__logo {
+    max-width: 100%;
+    height: auto;
+    margin-right: 20px;
+}
+
+.nav__list {
+    list-style: none;
+    padding: 0;
+    text-align: right;
+    margin-left: auto;
+}
+
+.nav__item {
+    display: inline;
+    margin: 0 20px;
+}
+
+.nav__link {
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+}
+
+/* Estilos para el contenido principal */
+.main-container {
+    text-align: center;
+    padding: 20px;
+}
+
+.page-title {
+    font-size: 36px;
+    margin: 0;
+    color: #cf1e1e;
+}
+
+.controls {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.search-form {
+    margin-right: 20px;
+}
+
+.search-input {
+    padding: 10px;
+    width: 200px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+.search-button, .add-button, .delete-button {
+    padding: 10px 20px;
+    background-color: #cf1e1e;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.category-dropdown {
+    width: 200px;
+}
+
+.category-select {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+/* Estilos para la lista de documentos */
+.document-list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.document-list li {
+    display: flex;
+    align-items: center;
+    margin: 10px 0;
+    font-size: 20px;
+    color: #333;
+}
+
+.document-list input[type="checkbox"] {
+    margin-right: 10px;
+}
+
+.document-list a {
+    text-decoration: none;
+    color: #cf1e1e;
+    font-weight: bold;
+    transition: color 0.3s;
+}
+
+.document-list a:hover {
+    color: #1b315e;
+}
+
+/* Estilos para la sección de Misión y Visión */
+.mission-vision {
+    text-align: center;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin-top: 20px;
+}
+
+.smaller-text {
+    font-size: 16px;
+    color: #555;
+}
+
+/* Estilos para la tabla de documentos */
+.document-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 20px auto; /* Centra la tabla */
+    display: flex; /* Utilizamos un contenedor flex */
+    flex-wrap: wrap; /* Permite que las celdas se envuelvan en varias líneas */
+    justify-content: space-evenly; /* Distribuye las celdas de manera uniforme */
+}
+
+/* Estilos para las celdas de la tabla */
+.document-table th, .document-table td {
+    border: 1px solid #ccc;
+    padding: 20px; /* Aumenta el espaciado para hacer las columnas más anchas */
+    width: calc(33.33% - 20px); /* Divide en 3 columnas y ajusta el espaciado */
+    box-sizing: border-box; /* Evita que se ensanche más allá del 33.33% debido al borde */
+    text-align: left;
+    vertical-align: middle; /* Centra verticalmente el contenido */
+}
+
+
+
+.document-table th {
+    background-color: #cf1e1e;
+    color: #fff;
+    padding: 10px;
+    text-align: left;
+}
+
+
+/* Estilos para la lista de documentos en la tabla */
+.document-table a {
+    text-decoration: none;
+    color: #cf1e1e;
+    font-weight: bold;
+    transition: color 0.3s;
+}
+
+.document-table a:hover {
+    color: #1b315e;
+}

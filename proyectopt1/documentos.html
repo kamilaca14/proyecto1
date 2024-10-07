@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Documentación - ULEAM</title>
+    <link rel="stylesheet" href="documentos.css">
+</head>
+<body>
+    <header class="header">
+        <div class="header__content">
+            <img src="descarga.png" alt="Logo ULEAM" class="header__logo">
+            <nav class="header__nav">
+                <ul class="nav__list">
+                    <li class="nav__item"><a href="principal.html" class="nav__link">Inicio</a></li>
+                    <li class="nav__item"><a href="perfil.html" class="nav__link">Perfil</a></li>
+                    <li class="nav__item"><a href="notificaciones.html" class="nav__link">Notificaciones</a></li>
+                    <li class="nav__item"><a href="login.html" class="nav__link">Cerrar sesion</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main class="main-container">
+        <h1 class="page-title">Documentos</h1>
+        <div class="controls">
+            <form class="search-form">
+                <input type="text" placeholder="Buscar documentos..." class="search-input">
+                <button type="submit" class="search-button">Buscar</button>
+            </form>
+            <button class="add-button" id="addDocument">Añadir Documento</button>
+            <button class="delete-button" id="deleteDocuments">Eliminar Documentos</button>
+            <div class="category-dropdown">
+                <select class="category-select" id="categorySelect">
+                    <option value="todos">Todos</option>
+                    <option value="solicitudes">Solicitudes</option>
+                    <option value="reingresos">Reingresos</option>
+                    <option value="retiro">Retiro</option>
+                    <option value="mallas">Mallas</option>
+                    <option value="justificacion">Justificación</option>
+                </select>
+            </div>
+        </div>
+        <table class="document-table">
+            <tbody id="documentList">
+                <!-- Lista de documentos se generará dinámicamente -->
+            </tbody>
+        </table>
+        <input type="file" id="fileInput" style="display: none">
+    </main>
+
+    <section class="mission-vision">
+        <h2 class="section__title">Misión y Visión de la Documentación</h2>
+        <p class="mission-vision__text">
+            Nuestra misión es proporcionar acceso eficiente a la documentación necesaria para los procesos académicos y administrativos de la ULEAM. La visión es convertirnos en un recurso de referencia confiable para todos los miembros de la comunidad universitaria.
+        </p>
+    </section>
+
+    <script src="documentos.js"></script>
+</body>
+</html>

@@ -1,0 +1,107 @@
+/* Estilos para el cuerpo de la página */
+body {
+    background-image: url('Fondo-de-pantalla-Soy-Uleam1-1024x577.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    font-family: Arial, sans-serif;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+/* Estilos para el contenedor principal */
+.container {
+    width: 400px;
+    padding: 20px;
+    background-color: rgba(255, 255, 255, 0.8);
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgb(253, 1, 1);
+}
+
+/* Estilos para grupos de formulario */
+.form-group {
+    text-align: left;
+    margin: 15px 0;
+    width: 90%;
+}
+
+.form-group label {
+    display: block;
+    font-weight: bold;
+    color: #333;
+}
+
+.form-group input {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.form-group .forgot-password {
+    font-size: 14px;
+    color: #007bff;
+    text-decoration: none;
+}
+
+.form-group button {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    padding: 12px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    width: 100%;
+}
+
+.form-group button:hover {
+    background-color: #0056b3;
+}
+
+/* Estilos para el enlace "Crear cuenta" */
+.create-account {
+    margin-top: 10px;
+    font-size: 16px;
+}
+
+.create-account a {
+    color: #007bff;
+    text-decoration: none;
+}
+
+/* Estilos para el botón de Office 365 modificado */
+.office365-button {
+    display: flex;
+    align-items: center;
+    margin-top: 20px;
+    background-color: #eaeceeda;
+    color: #f80606;
+    padding: 10px;
+    border-radius: 5px;
+    text-decoration: none;
+    transition: background-color 0.3s;
+    width: 100%;
+    max-width: 150px; /* Ancho máximo del botón */
+    margin-left: 120px;
+}
+
+.office365-button img {
+    width: 15px; /* Ajusta el tamaño de la imagen de Office 365 */
+    height: auto;
+    margin-right: 5px; /* Espacio entre la imagen y el texto */
+}
+
+.office365-button span {
+    font-weight: bold;
+    flex-grow: 1; /* Hace que el texto ocupe el espacio restante */
+    text-align: right; /* Alinea el texto a la derecha */
+}
+
+.office365-button:hover {
+    background-color: #0056b3;
+}
